@@ -47,3 +47,10 @@ a {
 .col-md-6 {
   padding: 25px;
 }
+
+.fa-linkedin,
+.fa-envelope,
+.fa-github {
+  font-size: 3em;
+  padding: 5px;
+}
