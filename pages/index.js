@@ -150,7 +150,11 @@ const Index = ({ allMD }) => {
           </section>
           <section id="contact">
             <h3>Contact</h3>
-            <div>Linkedin, Github, Email</div>
+            <div>
+              <i class="fab fa-linkedin"></i>
+              <i class="far fa-envelope"></i>
+              <i class="fab fa-github"></i>
+            </div>
           </section>
         </main>
       </div>
