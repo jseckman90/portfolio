@@ -71,100 +71,79 @@ const Index = ({ allMD }) => {
           <section id="projects">
             <h3>Projects</h3>
             <div className="project-container">
-              <article className="project-thing">
-                <div className="col-6">
-                  <div>
+              <div class="card mb-3" style={{ "max-width": "540px;" }}>
+                <div class="row no-gutters">
+                  <div class="col-md-6">
                     <img
-                      class="card-img-top"
                       src="/images/marvel_studios_movie_hub.png"
-                      alt="Card image cap"></img>
+                      class="card-img"
+                      alt="Marvel Studios Movie Hub"
+                    />
                   </div>
-                </div>
-                <div className="col-6">
-                  <div>
-                    <h3>Movie Hub</h3>
-                    <p>
-                      An app that allows users to inventory their home grocery
-                      items to help with management and grocery list creation
-                    </p>
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <div>
+                        <h3 class="card-title">Marvel Studios Movie Hub</h3>
+                        <p class="card-text">
+                          Jump in and learn about the Marvel Cinematic Universe
+                          films{" "}
+                        </p>
+                      </div>
+                      <hr />
+                      <div>
+                        <img src="https://img.icons8.com/color/72/000000/html-5.png" />
+                        <img src="https://img.icons8.com/color/72/000000/css3.png" />
+                        <img src="https://img.icons8.com/color/72/000000/javascript.png" />
+                      </div>
+                      <hr />
+                      <div>
+                        <i class="fab fa-github"></i>
+                        <a
+                          href="https://marvelstudiosmoviehub-orcin.vercel.app/"
+                          target="_blank">
+                          <i class="fas fa-globe-americas"></i>
+                        </a>
+                      </div>
+                    </div>
                   </div>
-                  <hr />
-                  <div>
-                    <img src="https://img.icons8.com/color/72/000000/html-5.png" />
-                    <img src="https://img.icons8.com/color/72/000000/css3.png" />
-                    <img src="https://img.icons8.com/color/72/000000/javascript.png" />
-                  </div>
-                  <hr />
-                  <div>
-                    <i class="fab fa-github"></i>
-                    <a
-                      href="https://marvelstudiosmoviehub-orcin.vercel.app/"
-                      target="_blank">
-                      <i class="fas fa-globe-americas"></i>
-                    </a>
-                  </div>
-                </div>
-              </article>
-
-              <div class="card" style={{ width: "25rem" }}>
-                <img
-                  class="card-img-top"
-                  src="/images/marvel_studios_movie_hub.png"
-                  alt="Card image cap"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Marvel Studios Movie Hub</h5>
-                  <p class="card-text">
-                    An app that allows users to inventory their home grocery
-                    items to help with management and grocery list creation
-                  </p>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">
-                    <p>Technologies Used:</p>
-                    <img src="https://img.icons8.com/color/72/000000/html-5.png" />
-                    <img src="https://img.icons8.com/color/72/000000/css3.png" />
-                    <img src="https://img.icons8.com/color/72/000000/javascript.png" />
-                  </li>
-                </ul>
-                <div class="card-body">
-                  <i class="fab fa-github"></i>
-                  <a
-                    href="https://marvelstudiosmoviehub-orcin.vercel.app/"
-                    target="_blank">
-                    <i class="fas fa-globe-americas"></i>
-                  </a>
                 </div>
               </div>
 
-              <div class="card" style={{ width: "25rem" }}>
-                <img
-                  class="card-img-top"
-                  src="/images/my_pantry.png"
-                  alt="Card image cap"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">MyPantry</h5>
-                  <p class="card-text">
-                    An app that allows users to inventory their home grocery
-                    items to help with management and grocery list creation
-                  </p>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">
-                    <p>Technologies Used:</p>
-                    <img src="https://img.icons8.com/color/72/000000/html-5.png" />
-                    <img src="https://img.icons8.com/color/72/000000/css3.png" />
-                    <img src="https://img.icons8.com/color/72/000000/javascript.png" />
-                  </li>
-                </ul>
-                <div class="card-body">
-                  <i class="fab fa-github"></i>
-                  <a
-                    href="https://jszenproject2.herokuapp.com/"
-                    target="_blank">
-                    <i class="fas fa-globe-americas"></i>
-                  </a>
+              <div class="card mb-3" style={{ "max-width": "540px;" }}>
+                <div class="row no-gutters">
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <div>
+                        <h3 class="card-title">MyPantry</h3>
+                        <p class="card-text">
+                          Inventory your grocery items in your home and generate
+                          a grocery list
+                        </p>
+                      </div>
+                      <hr />
+                      <div>
+                        <img src="https://img.icons8.com/color/72/000000/html-5.png" />
+                        <img src="https://img.icons8.com/color/72/000000/css3.png" />
+                        <img src="https://img.icons8.com/color/72/000000/javascript.png" />
+                      </div>
+                      <hr />
+                      <div>
+                        <i class="fab fa-github"></i>
+                        <a
+                          href="https://jszenproject2.herokuapp.com/"
+                          target="_blank">
+                          <i class="fas fa-globe-americas"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <img
+                      src="/images/my_pantry.png"
+                      class="card-img"
+                      alt="Marvel Studios Movie Hub"
+                    />
+                  </div>
                 </div>
               </div>
             </div>

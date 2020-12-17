@@ -40,10 +40,10 @@ a {
   justify-content: space-around;
 }
 
-.project-thing {
-  display: flex;
+.mb-3 {
+  border: none;
 }
 
-.project-thing .col-6 {
-  padding: 15px;
+.col-md-6 {
+  padding: 25px;
 }

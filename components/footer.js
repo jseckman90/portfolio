@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer>
-      <h1>I am the Footer</h1>
+      <p>© 2020 Josh Seckman. All rights reserved.</p>
     </footer>
   );
 };
