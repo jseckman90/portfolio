@@ -150,7 +150,7 @@ const Index = ({ allMD }) => {
           </section>
           <section id="contact">
             <h3>Contact</h3>
-            <div>contact info goes here</div>
+            <div>Linkedin, Github, Email</div>
           </section>
         </main>
       </div>
