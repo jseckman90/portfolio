@@ -20,6 +20,7 @@ a {
 .title {
   color: rgb(146, 146, 146);
   font-family: "Rubik", sans-serif;
+  margin: 20px;
 }
 section h3 {
   text-align: center;
@@ -79,6 +80,10 @@ section h3 {
   text-align: center;
 }
 
+.colored {
+  font-size: 4.35em;
+}
+
 /* ABOUT ME */
 
 /* PROJECTS */
@@ -110,6 +115,10 @@ section h3 {
 }
 
 .tech-used img {
+  filter: grayscale(100%);
+}
+.tech-used i {
+  font-size: 3.6em;
   filter: grayscale(100%);
 }
 

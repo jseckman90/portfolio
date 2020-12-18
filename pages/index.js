@@ -29,20 +29,26 @@ const Index = ({ allMD }) => {
                 <img src="https://img.icons8.com/ios-filled/72/000000/jquery.png" />
                 <p>jQuery</p>
               </div>
+
               <div className="skill">
                 <img src="https://img.icons8.com/color/72/000000/ruby-programming-language.png" />
                 <p>Ruby</p>
+              </div>
+              <div className="skill">
+                <i class="devicon-rails-plain-wordmark colored"></i>
+                <p>Rails</p>
               </div>
               <div className="skill">
                 <img src="https://img.icons8.com/color/72/000000/react-native.png" />
                 <p>React</p>
               </div>
               <div className="skill">
-                <img src="https://img.icons8.com/color/72/000000/nodejs.png" />
+                <i class="devicon-nodejs-plain colored"></i>
+
                 <p>Node.js</p>
               </div>
               <div className="skill">
-                <img src="https://img.icons8.com/color/72/000000/git.png" />
+                <i class="devicon-git-plain-wordmark colored"></i>
                 <p>git</p>
               </div>
               <div className="skill">
@@ -54,8 +60,8 @@ const Index = ({ allMD }) => {
                 <p>PostgreSQL</p>
               </div>
               <div className="skill">
-                <img src="https://img.icons8.com/wired/72/000000/postman-api.png" />
-                <p>Postman</p>
+                <i class="devicon-express-original colored"></i>
+                <p>Express</p>
               </div>
             </div>
           </section>
@@ -151,6 +157,10 @@ const Index = ({ allMD }) => {
                         <div className="skill">
                           <img src="https://img.icons8.com/color/60/000000/javascript.png" />
                           <p>JavaScript</p>
+                        </div>
+                        <div className="skill">
+                          <i class="devicon-express-original colored"></i>
+                          <p>Express</p>
                         </div>
                         <div className="skill">
                           <img src="https://img.icons8.com/color/60/000000/mongodb.png" />
