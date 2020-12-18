@@ -5,8 +5,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 a {
@@ -18,15 +17,40 @@ a {
   box-sizing: border-box;
 }
 
-/* header */
-
-#name-title {
-  color: white;
+.title {
+  color: rgb(146, 146, 146);
   font-family: "Rubik", sans-serif;
+}
+section h3 {
+  text-align: center;
+}
+
+.container {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* header */
+.navbar {
+  font-family: "Rubik", sans-serif;
+}
+.navbar-brand {
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.navbar-nav {
+  font-weight: 200;
 }
 
 .jumbotron {
   background-color: rgb(34, 37, 41);
+  color: white;
+  padding: 25px;
+}
+
+#profile-img img {
+  border-radius: 50%;
 }
 
 /* SKILLS */
@@ -42,6 +66,20 @@ a {
 
 /* ABOUT ME */
 
+#about {
+  display: flex;
+  font-family: "Rubik", sans-serif;
+  background-color: rgb(34, 37, 41);
+}
+
+#about-me-text h5 {
+  color: rgb(146, 146, 146);
+  font-weight: 200;
+}
+#profile-img {
+  text-align: center;
+}
+
 /* PROJECTS */
 
 #projects {
@@ -53,9 +91,25 @@ a {
   justify-content: space-around;
 }
 
+.card-text,
+.skill {
+  color: rgb(146, 146, 146);
+}
+
+.github-live-links {
+  text-align: center;
+}
+
 .tech-used {
   display: flex;
   justify-content: space-around;
+}
+.tech-used p {
+  font-size: 0.75em;
+}
+
+.tech-used img {
+  filter: grayscale(100%);
 }
 
 .mb-3 {

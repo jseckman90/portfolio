@@ -3,8 +3,8 @@ const Header = () => {
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            J
+          <a class="navbar-brand" href="/">
+            JS
           </a>
           <button
             className="navbar-toggler"
@@ -18,11 +18,6 @@ const Header = () => {
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
-                  Home
-                </a>
-              </li>
               <li class="nav-item">
                 <a class="nav-link" href="#about">
                   About Me
@@ -38,29 +33,39 @@ const Header = () => {
                   Projects
                 </a>
               </li>
+              {/* <li class="nav-item">
+                <a class="nav-link" href="/blog">
+                  Blog
+                </a>
+              </li> */}
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">
+                  Contact
+                </a>
+              </li>
             </ul>
-            <form class="d-flex">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
           </div>
         </div>
       </nav>
       <div>
         <div className="jumbotron">
-          <h1 id="name-title">Josh Seckman</h1>
-          <div id="about">
-            <img src="/images/linkedin_pic.jpeg" />
-            <h3>About Me</h3>
-            <div>
-              <p>I am a dev</p>
+          <div id="about" class="card mb-3" style={{ "max-width": "540px;" }}>
+            <div class="row no-gutters">
+              <div id="profile-img" class="col-md-6">
+                <img src="/images/linkedin_pic.jpeg" alt="MyPantry" />
+              </div>
+              <div class="col-md-6">
+                <div id="about-me-text" class="card-body">
+                  <div>
+                    <h3 class="card-title">Hey, I'm Josh Seckman</h3>
+                    <p id="about-me-text" class="card-text">
+                      I'm a full-stack developer with a passion for writing
+                      clean, efficient code and creating a user-friendly
+                      experience
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

@@ -65,7 +65,7 @@ const Index = ({ allMD }) => {
           <section id="projects">
             <h3 className="title">PROJECTS</h3>
             <div className="project-container">
-              <div class="card mb-3" style={{ "max-width": "540px;" }}>
+              <div class="card mb-3">
                 <div class="row no-gutters">
                   <div class="col-md-6">
                     <img
@@ -86,24 +86,24 @@ const Index = ({ allMD }) => {
                       <hr />
                       <div className="tech-used">
                         <div className="skill">
-                          <img src="https://img.icons8.com/color/72/000000/html-5.png" />
+                          <img src="https://img.icons8.com/color/60/000000/html-5.png" />
                           <p>HTML 5</p>
                         </div>
                         <div className="skill">
-                          <img src="https://img.icons8.com/color/72/000000/css3.png" />
+                          <img src="https://img.icons8.com/color/60/000000/css3.png" />
                           <p>CSS 3</p>
                         </div>
                         <div className="skill">
-                          <img src="https://img.icons8.com/color/72/000000/javascript.png" />
+                          <img src="https://img.icons8.com/color/60/000000/javascript.png" />
                           <p>JavaScript</p>
                         </div>
                         <div className="skill">
-                          <img src="https://img.icons8.com/ios-filled/72/000000/jquery.png" />
+                          <img src="https://img.icons8.com/ios-filled/60/000000/jquery.png" />
                           <p>jQuery</p>
                         </div>
                       </div>
                       <hr />
-                      <div>
+                      <div className="github-live-links">
                         <i class="fab fa-github"></i>
                         <a
                           href="https://marvelstudiosmoviehub-orcin.vercel.app/"
@@ -116,13 +116,13 @@ const Index = ({ allMD }) => {
                 </div>
               </div>
 
-              <div class="card mb-3" style={{ "max-width": "540px;" }}>
+              <div class="card mb-3">
                 <div class="row no-gutters">
                   <div class="col-md-6">
                     <img
                       src="/images/my_pantry_app.png"
                       class="card-img"
-                      alt="Marvel Studios Movie Hub"
+                      alt="MyPantry"
                     />
                   </div>
                   <div class="col-md-6">
@@ -137,24 +137,24 @@ const Index = ({ allMD }) => {
                       <hr />
                       <div className="tech-used">
                         <div className="skill">
-                          <img src="https://img.icons8.com/color/72/000000/html-5.png" />
+                          <img src="https://img.icons8.com/color/60/000000/html-5.png" />
                           <p>HTML 5</p>
                         </div>
                         <div className="skill">
-                          <img src="https://img.icons8.com/color/72/000000/css3.png" />
+                          <img src="https://img.icons8.com/color/60/000000/css3.png" />
                           <p>CSS 3</p>
                         </div>
                         <div className="skill">
-                          <img src="https://img.icons8.com/color/72/000000/javascript.png" />
+                          <img src="https://img.icons8.com/color/60/000000/javascript.png" />
                           <p>JavaScript</p>
                         </div>
                         <div className="skill">
-                          <img src="https://img.icons8.com/color/72/000000/mongodb.png" />
+                          <img src="https://img.icons8.com/color/60/000000/mongodb.png" />
                           <p>MongoDB</p>
                         </div>
                       </div>
                       <hr />
-                      <div>
+                      <div className="github-live-links">
                         <i class="fab fa-github"></i>
                         <a
                           href="https://jszenproject2.herokuapp.com/"
@@ -178,7 +178,6 @@ const Index = ({ allMD }) => {
           </section>
         </main>
       </div>
-      <MDList posts={allMD} />
     </Layout>
   );
 };
