@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
 html,
 body {
   padding: 0;
@@ -15,9 +18,15 @@ a {
   box-sizing: border-box;
 }
 
+/* header */
+
+#name-title {
+  color: white;
+  font-family: "Rubik", sans-serif;
+}
+
 .jumbotron {
-  background-color: gray;
-  height: 32vh;
+  background-color: rgb(34, 37, 41);
 }
 
 /* SKILLS */
@@ -34,9 +43,18 @@ a {
 /* ABOUT ME */
 
 /* PROJECTS */
+
+#projects {
+  font-family: "Rubik", sans-serif;
+}
 .project-container {
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.tech-used {
+  display: flex;
   justify-content: space-around;
 }
 
@@ -47,10 +65,29 @@ a {
 .col-md-6 {
   padding: 25px;
 }
+.card-img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 .fa-linkedin,
 .fa-envelope,
-.fa-github {
+.fa-github,
+.fa-globe-americas {
   font-size: 3em;
+  padding: 5px;
+}
+
+#contact {
+  background-color: rgb(246, 246, 246);
+  text-align: center;
+}
+
+/* footer */
+
+footer {
+  background-color: rgb(34, 37, 41);
+  color: white;
+  height: 10vh;
+  text-align: center;
   padding: 5px;
 }

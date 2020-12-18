@@ -10,18 +10,8 @@ const Index = ({ allMD }) => {
     <Layout>
       <div className="container">
         <main>
-          <section id="about">
-            <img src="/images/linkedin_pic.jpeg" />
-            <h3>About Me</h3>
-            <div>
-              <p>I am a dev</p>
-            </div>
-          </section>
-
-          <hr />
-
           <section id="skills">
-            <h3>Skills</h3>
+            <h3 className="title">SKILLS</h3>
             <div className="skills-container">
               <div className="skill">
                 <img src="https://img.icons8.com/color/72/000000/html-5.png" />
@@ -34,6 +24,10 @@ const Index = ({ allMD }) => {
               <div className="skill">
                 <img src="https://img.icons8.com/color/72/000000/javascript.png" />
                 <p>JavaScript</p>
+              </div>
+              <div className="skill">
+                <img src="https://img.icons8.com/ios-filled/72/000000/jquery.png" />
+                <p>jQuery</p>
               </div>
               <div className="skill">
                 <img src="https://img.icons8.com/color/72/000000/ruby-programming-language.png" />
@@ -69,13 +63,13 @@ const Index = ({ allMD }) => {
           <hr />
 
           <section id="projects">
-            <h3>Projects</h3>
+            <h3 className="title">PROJECTS</h3>
             <div className="project-container">
               <div class="card mb-3" style={{ "max-width": "540px;" }}>
                 <div class="row no-gutters">
                   <div class="col-md-6">
                     <img
-                      src="/images/marvel_studios_movie_hub.png"
+                      src="/images/msmh_app.png"
                       class="card-img"
                       alt="Marvel Studios Movie Hub"
                     />
@@ -90,10 +84,23 @@ const Index = ({ allMD }) => {
                         </p>
                       </div>
                       <hr />
-                      <div>
-                        <img src="https://img.icons8.com/color/72/000000/html-5.png" />
-                        <img src="https://img.icons8.com/color/72/000000/css3.png" />
-                        <img src="https://img.icons8.com/color/72/000000/javascript.png" />
+                      <div className="tech-used">
+                        <div className="skill">
+                          <img src="https://img.icons8.com/color/72/000000/html-5.png" />
+                          <p>HTML 5</p>
+                        </div>
+                        <div className="skill">
+                          <img src="https://img.icons8.com/color/72/000000/css3.png" />
+                          <p>CSS 3</p>
+                        </div>
+                        <div className="skill">
+                          <img src="https://img.icons8.com/color/72/000000/javascript.png" />
+                          <p>JavaScript</p>
+                        </div>
+                        <div className="skill">
+                          <img src="https://img.icons8.com/ios-filled/72/000000/jquery.png" />
+                          <p>jQuery</p>
+                        </div>
                       </div>
                       <hr />
                       <div>
@@ -112,6 +119,13 @@ const Index = ({ allMD }) => {
               <div class="card mb-3" style={{ "max-width": "540px;" }}>
                 <div class="row no-gutters">
                   <div class="col-md-6">
+                    <img
+                      src="/images/my_pantry_app.png"
+                      class="card-img"
+                      alt="Marvel Studios Movie Hub"
+                    />
+                  </div>
+                  <div class="col-md-6">
                     <div class="card-body">
                       <div>
                         <h3 class="card-title">MyPantry</h3>
@@ -121,10 +135,23 @@ const Index = ({ allMD }) => {
                         </p>
                       </div>
                       <hr />
-                      <div>
-                        <img src="https://img.icons8.com/color/72/000000/html-5.png" />
-                        <img src="https://img.icons8.com/color/72/000000/css3.png" />
-                        <img src="https://img.icons8.com/color/72/000000/javascript.png" />
+                      <div className="tech-used">
+                        <div className="skill">
+                          <img src="https://img.icons8.com/color/72/000000/html-5.png" />
+                          <p>HTML 5</p>
+                        </div>
+                        <div className="skill">
+                          <img src="https://img.icons8.com/color/72/000000/css3.png" />
+                          <p>CSS 3</p>
+                        </div>
+                        <div className="skill">
+                          <img src="https://img.icons8.com/color/72/000000/javascript.png" />
+                          <p>JavaScript</p>
+                        </div>
+                        <div className="skill">
+                          <img src="https://img.icons8.com/color/72/000000/mongodb.png" />
+                          <p>MongoDB</p>
+                        </div>
                       </div>
                       <hr />
                       <div>
@@ -137,19 +164,12 @@ const Index = ({ allMD }) => {
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-6">
-                    <img
-                      src="/images/my_pantry.png"
-                      class="card-img"
-                      alt="Marvel Studios Movie Hub"
-                    />
-                  </div>
                 </div>
               </div>
             </div>
           </section>
           <section id="contact">
-            <h3>Contact</h3>
+            <h3 className="title">CONTACT</h3>
             <div>
               <i class="fab fa-linkedin"></i>
               <i class="far fa-envelope"></i>

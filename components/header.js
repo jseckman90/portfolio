@@ -55,8 +55,14 @@ const Header = () => {
       </nav>
       <div>
         <div className="jumbotron">
-          <h1>Josh Seckman</h1>
-          <h3></h3>
+          <h1 id="name-title">Josh Seckman</h1>
+          <div id="about">
+            <img src="/images/linkedin_pic.jpeg" />
+            <h3>About Me</h3>
+            <div>
+              <p>I am a dev</p>
+            </div>
+          </div>
         </div>
       </div>
     </header>
