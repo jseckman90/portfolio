@@ -49,7 +49,7 @@ const Header = () => {
       </nav>
       <div>
         <div className="jumbotron">
-          <div id="about" class="card mb-3" style={{ "max-width": "540px;" }}>
+          <div id="about" class="card mb-3">
             <div class="row no-gutters">
               <div id="profile-img" class="col-md-6">
                 <img src="/images/linkedin_pic.jpeg" alt="MyPantry" />
@@ -57,12 +57,12 @@ const Header = () => {
               <div class="col-md-6">
                 <div id="about-me-text" class="card-body">
                   <div>
-                    <h3 class="card-title">Hey, I'm Josh Seckman</h3>
-                    <p id="about-me-text" class="card-text">
+                    <h1 class="card-title">Hey, I'm Josh Seckman</h1>
+                    <h3 id="about-me-text" class="card-text">
                       I'm a full-stack developer with a passion for writing
                       clean, efficient code and creating a user-friendly
                       experience
-                    </p>
+                    </h3>
                   </div>
                 </div>
               </div>

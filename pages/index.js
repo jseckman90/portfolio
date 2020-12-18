@@ -104,7 +104,11 @@ const Index = ({ allMD }) => {
                       </div>
                       <hr />
                       <div className="github-live-links">
-                        <i class="fab fa-github"></i>
+                        <a
+                          href="https://github.com/jseckman90/Marvel-Studios-Movie-Hub"
+                          target="_blank">
+                          <i class="fab fa-github"></i>
+                        </a>
                         <a
                           href="https://marvelstudiosmoviehub-orcin.vercel.app/"
                           target="_blank">
@@ -155,7 +159,11 @@ const Index = ({ allMD }) => {
                       </div>
                       <hr />
                       <div className="github-live-links">
-                        <i class="fab fa-github"></i>
+                        <a
+                          href="https://github.com/jseckman90/MyPantry"
+                          target="_blank">
+                          <i class="fab fa-github"></i>
+                        </a>
                         <a
                           href="https://jszenproject2.herokuapp.com/"
                           target="_blank">
@@ -171,9 +179,16 @@ const Index = ({ allMD }) => {
           <section id="contact">
             <h3 className="title">CONTACT</h3>
             <div>
-              <i class="fab fa-linkedin"></i>
+              <a
+                href="https://www.linkedin.com/in/joshseckman/"
+                target="_blank">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="https://github.com/jseckman90" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+
               <i class="far fa-envelope"></i>
-              <i class="fab fa-github"></i>
             </div>
           </section>
         </main>

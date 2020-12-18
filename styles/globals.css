@@ -44,13 +44,28 @@ section h3 {
 }
 
 .jumbotron {
+  display: flex;
+  justify-content: center;
   background-color: rgb(34, 37, 41);
   color: white;
-  padding: 25px;
+  padding: 10px;
 }
 
 #profile-img img {
   border-radius: 50%;
+}
+
+#about {
+  font-family: "Rubik", sans-serif;
+  background-color: rgb(34, 37, 41);
+}
+
+#about-me-text h3 {
+  color: rgb(146, 146, 146);
+  font-weight: 200;
+}
+#profile-img {
+  text-align: center;
 }
 
 /* SKILLS */
@@ -65,20 +80,6 @@ section h3 {
 }
 
 /* ABOUT ME */
-
-#about {
-  display: flex;
-  font-family: "Rubik", sans-serif;
-  background-color: rgb(34, 37, 41);
-}
-
-#about-me-text h5 {
-  color: rgb(146, 146, 146);
-  font-weight: 200;
-}
-#profile-img {
-  text-align: center;
-}
 
 /* PROJECTS */
 
