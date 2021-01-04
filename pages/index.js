@@ -315,8 +315,13 @@ const Index = ({ allMD }) => {
               <a href="https://github.com/jseckman90" target="_blank">
                 <i class="fab fa-github"></i>
               </a>
-
-              <i class="far fa-envelope"></i>
+              <div
+                style={{
+                  fontSize: "0.85rem",
+                }}>
+                <i class="far fa-envelope">: </i>
+                <h5>jseckman90@gmail.com</h5>
+              </div>
             </div>
           </section>
         </main>
