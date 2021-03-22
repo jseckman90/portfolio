@@ -29,7 +29,6 @@ const Index = ({ allMD }) => {
                 <img src="https://img.icons8.com/ios-filled/72/000000/jquery.png" />
                 <p>jQuery</p>
               </div>
-
               <div className="skill">
                 <img src="https://img.icons8.com/color/72/000000/ruby-programming-language.png" />
                 <p>Ruby</p>
