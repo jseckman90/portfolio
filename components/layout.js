@@ -11,7 +11,7 @@ export default function Layout({ children, pageTitle, ...props }) {
         <meta
           name="title"
           property="og:title"
-          content="images/linkedin_pic_3.jpg"
+          content="images/linkedin_pic_2.jpeg"
         />
         <meta property="og:type" content="_" />
         <meta
