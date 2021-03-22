@@ -14,7 +14,11 @@ export default function Layout({ children, pageTitle, ...props }) {
           content="images/linkedin_pic_3.jpg"
         />
         <meta property="og:type" content="_" />
-        <meta name="image" property="og:image" content="_" />
+        <meta
+          name="image"
+          property="og:image"
+          content="/images/linkedin_pic_3.jpg"
+        />
         <meta name="description" property="og:description" content="_" />
         <meta name="author" content="_" />
         <title>Josh Seckman | Full Stack Software Engineer</title>
