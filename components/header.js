@@ -52,7 +52,7 @@ const Header = () => {
           <div id="about" class="card mb-3">
             <div class="row no-gutters">
               <div id="profile-img" class="col-md-6">
-                <img src="/images/linkedin_pic.jpeg" alt="MyPantry" />
+                <img src="images/linkedin_pic_3.jpg" alt="profile_pic" />
               </div>
               <div class="col-md-6">
                 <div id="about-me-text" class="card-body">

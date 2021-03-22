@@ -54,6 +54,7 @@ section h3 {
 
 #profile-img img {
   border-radius: 50%;
+  height: 250px;
 }
 
 #about {
