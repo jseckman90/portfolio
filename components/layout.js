@@ -7,24 +7,24 @@ export default function Layout({ children, pageTitle, ...props }) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="_" />
+        <meta name="description" content="Josh Seckman Portfolio" />
         <meta
           name="title"
           property="og:title"
-          content="https://i.imgur.com/sFHAfmG.png"
+          content="Josh Seckman Portfolio"
         />
         <meta property="og:type" content="_" />
         <meta
           name="image"
           property="og:image"
-          content="/images/portfolio_screenshot.png"
+          content="https://i.imgur.com/sFHAfmG.png"
         />
         <meta
           name="description"
           property="og:description"
           content="Josh Seckman Portfolio"
         />
-        <meta name="author" content="_" />
+        <meta name="author" content="Josh Seckman" />
         <title>Josh Seckman | Full Stack Software Engineer</title>
         <link
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
