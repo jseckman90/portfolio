@@ -74,26 +74,82 @@ const Index = ({ allMD }) => {
                 <div class="row no-gutters">
                   <div class="col-md-6">
                     <img
-                      src="/images/msmh_app.png"
+                      src="/images/studiosixtwo.png"
                       class="card-img"
-                      alt="Marvel Studios Movie Hub"
+                      alt="StudioSixTwo"
                     />
                   </div>
                   <div class="col-md-6">
                     <div class="card-body">
                       <div>
-                        <h3 class="card-title">Marvel Studios Movie Hub</h3>
-                        <p class="card-text">
-                          Jump in and learn about the Marvel Cinematic Universe
-                          films{" "}
-                        </p>
+                        <h3 class="card-title">Studio SixTwo</h3>
+                        <p class="card-text">A simple E-Commerce Store</p>
                       </div>
                       <hr />
                       <div className="tech-used">
                         <div className="skill">
-                          <img src="https://img.icons8.com/color/60/000000/html-5.png" />
-                          <p>HTML 5</p>
+                          <img src="https://img.icons8.com/color/60/000000/javascript.png" />
+                          <p>JavaScript</p>
                         </div>
+                        <div className="skill">
+                          <img src="https://img.icons8.com/color/60/000000/react-native.png" />
+                          <p>React</p>
+                        </div>
+
+                        <div className="skill">
+                          <img src="https://img.icons8.com/color/60/000000/ruby-programming-language.png" />
+                          <p>Ruby</p>
+                        </div>
+                        <div className="skill">
+                          <i class="devicon-rails-plain-wordmark colored"></i>
+                          <p>Rails</p>
+                        </div>
+                        <div className="skill">
+                          <img src="https://img.icons8.com/color/60/000000/postgreesql.png" />
+                          <p>PostgreSQL</p>
+                        </div>
+                      </div>
+                      <hr />
+                      <div className="github-live-links">
+                        <a
+                          href="https://github.com/jseckman90/shop_frontend"
+                          target="_blank">
+                          <i class="fab fa-github"></i>
+                        </a>
+                        <a
+                          href="https://silly-wilson-57fd79.netlify.app/"
+                          target="_blank">
+                          <i class="fas fa-globe-americas"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3">
+                <div class="row no-gutters">
+                  <div class="col-md-6">
+                    <img
+                      src="/images/halloweenpicks.png"
+                      class="card-img"
+                      alt="StudioSixTwo"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body">
+                      <div>
+                        <h3 class="card-title">Halloween Picks</h3>
+                        <p class="card-text">
+                          Halloween Picks is an app made to make family (or
+                          friend or date!) nights easier to plan and therefor
+                          enjoy. The app picks three major picks for your night:
+                          your cocktail, your snacks, and your movie. This way
+                          you spend less time discussing what everyone wants,
+                          and more time enjoying each other's company.
+                        </p>
+                      </div>
+                      <hr />
+                      <div className="tech-used">
                         <div className="skill">
                           <img src="https://img.icons8.com/color/60/000000/css3.png" />
                           <p>CSS 3</p>
@@ -103,19 +159,27 @@ const Index = ({ allMD }) => {
                           <p>JavaScript</p>
                         </div>
                         <div className="skill">
-                          <img src="https://img.icons8.com/ios-filled/60/000000/jquery.png" />
-                          <p>jQuery</p>
+                          <img src="https://img.icons8.com/color/60/000000/react-native.png" />
+                          <p>React</p>
+                        </div>
+                        <div className="skill">
+                          <i class="devicon-express-original colored"></i>
+                          <p>Express</p>
+                        </div>
+                        <div className="skill">
+                          <img src="https://img.icons8.com/color/60/000000/mongodb.png" />
+                          <p>MongoDB</p>
                         </div>
                       </div>
                       <hr />
                       <div className="github-live-links">
                         <a
-                          href="https://github.com/jseckman90/Marvel-Studios-Movie-Hub"
+                          href="https://github.com/caitmp12/zen-project3-frontend"
                           target="_blank">
                           <i class="fab fa-github"></i>
                         </a>
                         <a
-                          href="https://marvelstudiosmoviehub-orcin.vercel.app/"
+                          href="https://eloquent-newton-3f7527.netlify.app/"
                           target="_blank">
                           <i class="fas fa-globe-americas"></i>
                         </a>
@@ -124,7 +188,6 @@ const Index = ({ allMD }) => {
                   </div>
                 </div>
               </div>
-
               <div class="card mb-3">
                 <div class="row no-gutters">
                   <div class="col-md-6">
@@ -187,26 +250,26 @@ const Index = ({ allMD }) => {
                 <div class="row no-gutters">
                   <div class="col-md-6">
                     <img
-                      src="/images/halloweenpicks.png"
+                      src="/images/msmh_app.png"
                       class="card-img"
-                      alt="StudioSixTwo"
+                      alt="Marvel Studios Movie Hub"
                     />
                   </div>
                   <div class="col-md-6">
                     <div class="card-body">
                       <div>
-                        <h3 class="card-title">Halloween Picks</h3>
+                        <h3 class="card-title">Marvel Studios Movie Hub</h3>
                         <p class="card-text">
-                          Halloween Pick is an app made to make family (or
-                          friend or date!) nights easier to plan and therefor
-                          enjoy. The app picks three major picks for your night:
-                          your cocktail, your snacks, and your movie. This way
-                          you spend less time discussing what everyone wants,
-                          and more time enjoying each other's company.
+                          Jump in and learn about the Marvel Cinematic Universe
+                          films{" "}
                         </p>
                       </div>
                       <hr />
                       <div className="tech-used">
+                        <div className="skill">
+                          <img src="https://img.icons8.com/color/60/000000/html-5.png" />
+                          <p>HTML 5</p>
+                        </div>
                         <div className="skill">
                           <img src="https://img.icons8.com/color/60/000000/css3.png" />
                           <p>CSS 3</p>
@@ -216,83 +279,19 @@ const Index = ({ allMD }) => {
                           <p>JavaScript</p>
                         </div>
                         <div className="skill">
-                          <img src="https://img.icons8.com/color/60/000000/react-native.png" />
-                          <p>React</p>
-                        </div>
-                        <div className="skill">
-                          <i class="devicon-express-original colored"></i>
-                          <p>Express</p>
-                        </div>
-                        <div className="skill">
-                          <img src="https://img.icons8.com/color/60/000000/mongodb.png" />
-                          <p>MongoDB</p>
+                          <img src="https://img.icons8.com/ios-filled/60/000000/jquery.png" />
+                          <p>jQuery</p>
                         </div>
                       </div>
                       <hr />
                       <div className="github-live-links">
                         <a
-                          href="https://github.com/caitmp12/zen-project3-frontend"
+                          href="https://github.com/jseckman90/Marvel-Studios-Movie-Hub"
                           target="_blank">
                           <i class="fab fa-github"></i>
                         </a>
                         <a
-                          href="https://eloquent-newton-3f7527.netlify.app/"
-                          target="_blank">
-                          <i class="fas fa-globe-americas"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="card mb-3">
-                <div class="row no-gutters">
-                  <div class="col-md-6">
-                    <img
-                      src="/images/studiosixtwo.png"
-                      class="card-img"
-                      alt="StudioSixTwo"
-                    />
-                  </div>
-                  <div class="col-md-6">
-                    <div class="card-body">
-                      <div>
-                        <h3 class="card-title">Studio SixTwo</h3>
-                        <p class="card-text">A simple E-Commerce Store</p>
-                      </div>
-                      <hr />
-                      <div className="tech-used">
-                        <div className="skill">
-                          <img src="https://img.icons8.com/color/60/000000/javascript.png" />
-                          <p>JavaScript</p>
-                        </div>
-                        <div className="skill">
-                          <img src="https://img.icons8.com/color/60/000000/react-native.png" />
-                          <p>React</p>
-                        </div>
-
-                        <div className="skill">
-                          <img src="https://img.icons8.com/color/60/000000/ruby-programming-language.png" />
-                          <p>Ruby</p>
-                        </div>
-                        <div className="skill">
-                          <i class="devicon-rails-plain-wordmark colored"></i>
-                          <p>Rails</p>
-                        </div>
-                        <div className="skill">
-                          <img src="https://img.icons8.com/color/60/000000/postgreesql.png" />
-                          <p>PostgreSQL</p>
-                        </div>
-                      </div>
-                      <hr />
-                      <div className="github-live-links">
-                        <a
-                          href="https://github.com/jseckman90/shop_frontend"
-                          target="_blank">
-                          <i class="fab fa-github"></i>
-                        </a>
-                        <a
-                          href="https://silly-wilson-57fd79.netlify.app/"
+                          href="https://marvelstudiosmoviehub-orcin.vercel.app/"
                           target="_blank">
                           <i class="fas fa-globe-americas"></i>
                         </a>
